@@ -4,7 +4,6 @@ import { FormEvent, ChangeEvent, InvalidEvent, useState } from 'react'
 
 import { Avatar } from './Avatar'
 import { Comment } from './Comment'
-
 import styles from './Post.module.css'
 
 interface Author{
@@ -112,6 +111,7 @@ export function Post({ post }: PostProps){
               key={comment}
               content={comment}
               onDeleteComment={deleteComment}
+              publishedAt = {new Date('2023-02-19 22:200:00')}
             />
           );
         })}       

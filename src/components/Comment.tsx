@@ -1,3 +1,5 @@
+import { format, formatDistanceToNow } from 'date-fns'
+import ptBR from 'date-fns/locale/pt-BR'
 import { Trash,ThumbsUp } from 'phosphor-react'
 import { useState } from 'react'
 import { Avatar } from './Avatar'
@@ -7,7 +9,8 @@ interface CommentProps{
   content: string;
   onDeleteComment:(commentToDelete: string) => void;
 }
-export function Comment({content, onDeleteComment }:CommentProps){
+
+export function Comment({ content, onDeleteComment }:CommentProps){
   const [likeCount, setLikeCount] = useState(0);
   function handDeleteComment(){
     onDeleteComment(content);
@@ -29,13 +32,7 @@ export function Comment({content, onDeleteComment }:CommentProps){
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authotAndTime}>
-              <strong>Fulanito</strong>
-              <time
-                title="28 de janeiro às 08:13h"
-                dateTime="2023-01-28 08:13:30"
-              >
-              {' '}Cerca de 1h atrás
-              </time>
+              <strong>Fulano</strong>
             </div>
             <button onClick={handDeleteComment} title='Deletar comentário'>
               <Trash size={24}/>
