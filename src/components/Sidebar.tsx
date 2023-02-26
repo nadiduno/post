@@ -7,7 +7,7 @@ export function Sidebar() {
     <aside className={styles.sidebar}>
       <img
         className={styles.cover}
-        src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+        src="https://github.com/nadiduno/post/blob/main/src/assets/frontendNadiDuno.jpg?raw=true"
         alt="Foto de Menina no computador"
       />
       <div className={styles.profile}>
