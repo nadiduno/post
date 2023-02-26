@@ -3,9 +3,9 @@
 [![Linkedin](https://img.shields.io/badge/in-Nadi%20Duno-blue)](https://www.linkedin.com/in/nadiduno/)
 <br />
 <br />
-# Post
+# DevPost
 
-É uma rede social onde os usuários podem fazer postagem e outros podem comentar essas postagem.
+É uma rede social para a comunidade de desenvolvedores (Developer). Onde os usuários podem fazer postagem e outros podem comentar essas postagem.
 
 Estou utilizando algumas features de ES6 (ECMAScript), implementação de escopos no CSS com módulos, e sobretudo componentes e propriedades, os quais são as bases fundamentais da programação reactiva.
 
