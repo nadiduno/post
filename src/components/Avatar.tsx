@@ -5,7 +5,7 @@ interface AvatarProps extends ImgHTMLAttributes<HTMLImageElement> {
   hasBorder?: boolean
 }
 export function Avatar({
-  src = 'https://github.com/nadiduno/post/blob/main/src/assets/avatarcomicsneon.jpg?raw=true',
+  src = 'https://github.com/nadiduno.png',
   hasBorder = true,
   ...props
 }: AvatarProps) {
