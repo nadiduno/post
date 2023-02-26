@@ -20,12 +20,7 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
   }
   return (
     <div className={styles.comment}>
-      <Avatar
-        // src="https://github.com/nadiduno.png"
-        hasBorder={false}
-        // Posso não enviar as propiedades porque coloque uma Features de ES6 (Defaut Parameters) como argumento que recebem as propiedades
-        // Em caso de não enviar o src coloca um avatar predefinido no props.src
-      />
+      <Avatar hasBorder={false} />
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>

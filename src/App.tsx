@@ -1,10 +1,9 @@
 import { Header } from './components/Header'
 import { Post, PostType } from './components/Post'
 import { Sidebar } from './components/Sidebar'
-
 import styles from './App.module.css'
 import './global.css'
-// Array de objetos [{},{},{}]
+
 const posts: PostType[] = [
   {
     id: 1,
@@ -19,7 +18,7 @@ const posts: PostType[] = [
         content:
           'Acabei de subir um projeto no me github. É um projeto implementando React.',
       },
-      { type: 'link', content: 'https://github.com/nadiduno?tab=repositories' },
+      { type: 'link', content: 'https://github.com/nadiduno/post' },
     ],
     publishedAt: new Date('2023-01-30 20:00:00'),
   },
