@@ -50,4 +50,4 @@ $ npm run dev
 By DevRel <💜 /> [Nadi Duno](https://www.rocketseat.com.br/) © 2023
 <br />
 <br />
-Deploy da aplicação 🚀 [Page](https://test-react-nadiduno.vercel.app/) 
+Deploy da aplicação 🚀 [Page](https://post-nadiduno.vercel.app/) 
